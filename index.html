@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Main.css">
+    <script src="https://kit.fontawesome.com/c8b934b995.js" crossorigin="anonymous"></script>
+    <title>Portfolo-Creative Developer</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container ">
+        <header class="">
+            <nav>
+                <h2> <span>Ifeanyi</span> Chukwu</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./Works.html">Works</a></li>
+                    <li><a href="./Blog.html">Blogs</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <ul class="mobile-menu ">
+                <li><a href="/">Home</a></li>
+                <li><a href="./Works.html">Works</a></li>
+                <li><a href="./Blog.html">Blogs</a></li>
+                
+            </ul>
+            <section class="Hero container-Pd">
+                <div class="Hero-Text">
+                    <h1>Hi, I am Ifeanyi, <br>
+                        Creative Technologist</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officiaExercitation veniam consequat sunt nostrud amet
+                        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button>Download Resume</button>
+
+                </div>
+                <img src="./images/Ellipse 1.png" alt="Portfolio-Image" class="hero-img">
+            </section>
+        </header>
+        <section class="Recent container-Pd">
+            <div class="RecentBtn">
+                <p>Recent Posts</p>
+                <a href="./Blog.html">
+                    <p class="view">View All</p>
+                </a>
+            </div>
+            <div class="Recent-box">
+
+                <div class="Recent-post">
+                    <h2>Making a design system from <br> scratch</h2>
+                    <span>12 Feb 2022 &nbsp;&nbsp;|&nbsp;&nbsp; Design, Pattern</span>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="Recent-post">
+                    <h2>Making a design system from <br> scratch</h2>
+                    <span>12 Feb 2022&nbsp;&nbsp; |&nbsp;&nbsp; Design, Pattern</span>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="Features container-Pd">
+            <p>Features Works</p>
+            <div class="feature-box">
+                <img src="./images/Rectangle 30.png" alt="Featured-img">
+                <div class="feature-details">
+                    <a href="./workDetails.html">
+                        <h2>Designing Dashboards</h2>
+                    </a><button class="Year">2020</button>
+                    <button class="featureBtn">Dashbord</button>
+                    <p>Amet minim mollit non deserunt ullamco est duis enim velit mollit. Exercitation veniam consequat
+                        sunt nostrud amet. sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <img src="./images/Rectangle 32.png" alt="Featured-img">
+                <div class="feature-details">
+                    <a href="./workDetails.html"><h2>Vibrant Portraits of 2020</h2>
+                    </a><button class="Year">2018</button>
+                    <button class="featureBtn">Illustration</button>
+                    <p>Amet minim mollit non deserunt ullamco est
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. sit aliqua dolor do
+                        amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <img src="./images/Rectangle 34.png" alt="Featured-img">
+                <div class="feature-details">
+                    <a href="./workDetails.html">
+                        <h2>36 Days of Malayalam type</h2>
+                    </a><button class="Year">2018</button>
+                    <button class="featureBtn">Typography</button>
+                    <p>Amet minim mollit non deserunt ullamco est
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. sit aliqua dolor do
+                        amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section class="icons"><i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i>
+            </section>
+            <section class="copyright">
+                <p>Copyright ©2020 All rights reserved </p>
+            </section>
+        </footer>
+
+
+    </div>
+
+    <script>
+        var menu = document.querySelector('.fa-bars');
+        var List = document.querySelector('.mobile-menu').classList;
+        menu.addEventListener('click',()=>{
+             List.toggle('active');
+
+        })
+
+    </script>
+
+</body>
+
+</html>
