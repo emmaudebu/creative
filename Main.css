@@ -36,7 +36,7 @@ nav {
     justify-content: space-between;
     padding-inline: 30px;
     padding-top: 27px;
-   
+
 }
 
 nav ul {
@@ -269,24 +269,27 @@ a {
     display: flex;
     flex-direction: column-reverse;
 }
-.Works-box> div h2{
+
+.Works-box>div h2 {
     margin-top: 40px;
-   font-size: 34px;
-   font-weight: 700;
-   line-height: 50px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
 
 }
-.workYear{
+
+.workYear {
     background-color: var(--primaryColor);
 }
 
 /* work details css */
 
 /* mobile-menu css */
-.mobile-menu{
-   display: none;
-     width: 0px;
+.mobile-menu {
+    display: none;
+    width: 0px;
 }
+
 /* mobile-menu css */
 
 
@@ -317,6 +320,7 @@ a {
         justify-content: space-between;
         gap: 30px;
         padding-inline: 20px;
+        margin-inline: 20px;
 
 
     }
@@ -325,9 +329,11 @@ a {
         font-size: 19px;
         padding-inline: 0px;
     }
-header{
-    position: relative;
-}
+
+    header {
+        position: relative;
+    }
+
     .container {
         width: 100%;
     }
@@ -404,11 +410,13 @@ header{
         width: 100%;
 
     }
- /* workdetails css */
+
+    /* workdetails css */
     .Works-box {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .Works-box>div h2 {
         margin-top: 40px;
         font-size: 25px;
@@ -416,39 +424,48 @@ header{
         line-height: 50px;
 
     }
-     /* workdetails css */
 
-     /* .mobile-menu css */
-     .active{
-      width: 60vw;
-      display: block;
-      transition: all .5s ease-in-out;
-         
-     }
-     .mobile-menu{
+    /* workdetails css */
+
+    /* .mobile-menu css */
+    .active {
+        width: 60vw;
+        display: block;
+        transition: all .5s ease-in-out;
+
+    }
+
+    .mobile-menu {
         position: absolute;
-        margin-top:30px;
+        margin-top: 30px;
         background: var(--primaryColor);
         color: #fff;
         width: 70vw;
         transition: all .5s ease-in-out;
         border-top-right-radius: 9px;
         border-bottom-right-radius: 9px;
-       
-       
 
-     }
-     .mobile-menu li a{
+
+
+    }
+
+    .mobile-menu li a {
         color: #FFf;
-     }
-     .mobile-menu li{
+    }
+
+    .mobile-menu li {
         font-size: 25px;
         margin: 50px;
         list-style: none;
         font-weight: 600;
 
-     }
-     /* .mobile-menu css */
+    }
+
+    /* .mobile-menu css */
+   img:has(.Featured-img){
+    width: 90%;
+   }
+
 }
 
 
@@ -456,7 +473,33 @@ header{
 
 
 @media only screen and (min-width: 713px) and (max-width: 995px) {
-    body{background-color: red;}
+
+
+    body {
+        overflow-y: hidden;
+    }
+
+    .Hero {
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-inline: auto;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .hero-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .Recent>div {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        gap: 10px;
+    }
+
+   
 }
-
-
