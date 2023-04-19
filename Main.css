@@ -316,6 +316,7 @@ a {
     nav {
         justify-content: space-between;
         gap: 50px;
+        padding-inline: 20px;
 
 
     }
