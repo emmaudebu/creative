@@ -36,6 +36,7 @@ nav {
     justify-content: space-between;
     padding-inline: 30px;
     padding-top: 27px;
+   
 }
 
 nav ul {
@@ -91,7 +92,7 @@ nav .fa-solid {
 }
 
 .Hero {
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     gap: 150px;
@@ -448,3 +449,13 @@ header{
      }
      /* .mobile-menu css */
 }
+
+
+
+
+
+@media only screen and (min-width: 713px) and (max-width: 995px) {
+    body{background-color: red;}
+}
+
+
