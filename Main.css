@@ -318,7 +318,7 @@ a {
 
     nav {
         justify-content: space-between;
-        gap: 30px;
+        gap: 10px;
         padding-inline: 20px;
         margin-inline: 20px;
 
@@ -484,9 +484,11 @@ a {
         display: flex;
         align-items: center;
         gap: 10px;
+        flex-direction: column-reverse;
         margin-inline: auto;
         justify-content: center;
         padding-bottom: 60px;
+        text-align: center;
     }
 
     .hero-img {
@@ -500,6 +502,59 @@ a {
         width: 90%;
         gap: 10px;
     }
+     nav ul {
+         display: none;
+     }
+     nav .fa-solid {
+         display: block;
+         font-size: 30px;
+         color: var(--DarkColor);
+         cursor: pointer;
+     }
+ .active {
+     width: 60vw;
+     display: block;
+     transition: all .5s ease-in-out;
 
+ }
+
+ .mobile-menu {
+     position: absolute;
+     margin-top: 30px;
+     background: var(--primaryColor);
+     color: #fff;
+     width: 70vw;
+     transition: all .5s ease-in-out;
+     border-top-right-radius: 9px;
+     border-bottom-right-radius: 9px;
+
+
+
+ }
+   /* .mobile-menu {
+       position: absolute;
+       margin-top: 30px;
+       background: var(--primaryColor);
+       color: #fff;
+       width: 70vw;
+       transition: all .5s ease-in-out;
+       border-top-right-radius: 9px;
+       border-bottom-right-radius: 9px;
+
+
+
+   } */
+
+   .mobile-menu li a {
+       color: #FFf;
+   }
+
+   .mobile-menu li {
+       font-size: 25px;
+       margin: 50px;
+       list-style: none;
+       font-weight: 600;
+
+   }
    
 }
